@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PageObjectModel">
+
+	<listeners>
+		<listener class-name="com.crm.extentReportListner.ExtentReportListner" />
+	</listeners>
+
+	<test name="Capsule CRM Test Cases">
+
+
+		<classes>
+
+			<class name="com.crm.test.CasePageTest" />
+
+		</classes>
+
+
+	</test>
+
+</suite>

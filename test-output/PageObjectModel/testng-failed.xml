@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PageObjectModel]">
+  <listeners>
+    <listener class-name="com.crm.extentReportListner.ExtentReportListner"/>
+  </listeners>
+  <test name="Capsule CRM Test Cases">
+    <classes>
+      <class name="com.crm.test.CasePageTest"/>
+    </classes>
+  </test> <!-- Capsule CRM Test Cases -->
+</suite> <!-- Failed suite [PageObjectModel] -->
