@@ -79,7 +79,7 @@ public class CasePageTest extends TestBase
 			FileUtils.copyFile(src, new File(destination));
 		} catch(Exception e)
 		{
-			// TODO Auto-generated catch block
+			
 			System.out.println("Error Caught : "+e.getMessage());
 		}
 		
