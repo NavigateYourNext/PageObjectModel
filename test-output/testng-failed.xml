@@ -6,17 +6,4 @@
       <class name="com.crm.test.CasePageTest"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.crm.test.CasePageTest">
-        <methods>
-          <include name="endReport"/>
-          <include name="setExtent"/>
-          <include name="setUp"/>
-          <include name="verifyCaseStatus" invocation-numbers="0"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.crm.test.CasePageTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -98,7 +98,15 @@ public class CasePageTest extends TestBase
 	public void addCaseDetails(String initialTitle, String fname, String lname)
 	{
 		extentTest = extentReports.startTest("addCaseDetails");
+		
 		personPage.addPersonDetails(initialTitle, fname, lname);
+		
+		String getScreenshot = getScreenshot(driver, "Person Details");
+		
+		extentTest.log(LogStatus.PASS, "Person Details Added Succesfully");
+		extentTest.log(LogStatus.PASS, "Trying to add person details", "Succesfully added");
+		extentTest.log(LogStatus.PASS, extentTest.addScreenCapture(getScreenshot));
+		
 		casePage = homePage.clickOnCaseImage();
 		casePage.addCase(initialTitle, fname, lname);
 	}
